@@ -19,7 +19,7 @@ export default function TelNavbar() {
                 <div className="fixed inset-0 bg-black bg-opacity-50 z-10"></div>
             )}
 
-            <div className='lg:hidden flex justify-between items-center container mx-auto p-4 shadow-md fixed bg-white max-h-20 z-20'>
+            <div className='lg:hidden flex justify-between items-center  mx-auto p-4 shadow-md fixed w-full bg-white max-h-20 z-20'>
                 <Image width={645} height={640} className='w-20' src="/assets/logo.jpg" alt='logo'/>
                 <div className='flex flex-col px-4'>
                     <Burger className='' opened={opened} onClick={toggle} aria-label="Toggle navigation" />
